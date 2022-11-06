@@ -18,11 +18,11 @@ function App() {
 
                 <div>
 
-                    <textarea className="textarea" name="textarea" id="textarea" cols="30" rows="5" onInput={show_input} placeholder={"enter a color"}/>
+                    <textarea className="textarea" name="textarea" id="textarea" cols="30" rows="5" onInput={show_input}
+                              placeholder={"enter a color please"}/>
 
-                    <p>you have to enter the name of the color without any mistakes</p>
+                    <p className="description">you have to enter the name of the color without any mistakes</p>
                 </div>
-
 
 
             </header>

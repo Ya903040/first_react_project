@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.textarea{
+.textarea {
     font-size: 1rem;
 }
 
@@ -11,7 +11,6 @@
     pointer-events: none;
     animation: App-logo-spin infinite 20s linear;
 }
-
 
 .App-header {
     min-height: 100vh;
@@ -31,4 +30,11 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+
+.description {
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 12px;
 }
