@@ -1,20 +1,29 @@
 import './App.css';
 import logo from './images/logo.jpg'
-/*
-import gif_logo from './images/preloader.gif'
-*/
 
 function App() {
+
+    function show_input(event) {
+        console.log(event.target.value);
+        document.body.style.background = event.target.value;
+
+    }
+
     return (
         <div className="App">
             <header className="App-header">
-                <div >
+                <div>
                     <img className="App-logo" src={logo} alt="logo"/>
                 </div>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>ddd</p>
+
+                <div>
+
+                    <textarea className="textarea" name="textarea" id="textarea" cols="30" rows="5" onInput={show_input} placeholder={"enter a color"}/>
+
+                    <p>you have to enter the name of the color without any mistakes</p>
+                </div>
+
+
 
             </header>
         </div>
